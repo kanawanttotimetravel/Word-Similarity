@@ -7,10 +7,10 @@ Problem description: https://github.com/NLP-Projects/Word-Similarity
 
 ## Implementation
 - The `cosine_similarity()` is implemented using this formula:
-$$
+```math
     cosine\_similarity(v_1, v_2) = \frac{v_1 
     \cdot v_2}{\|v_1\| \cdot \|v_2\|}
-$$
+```
 
 
 - `read_pretrain_embeds` read the embed file then store it into a binary file using `pickle` for quicker reading. This function only have to run **once**
